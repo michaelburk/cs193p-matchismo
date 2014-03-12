@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AB3944718B94AD8002FEBB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB3944618B94AD8002FEBB4 /* Foundation.framework */; };
+		5AB3944918B94AD8002FEBB4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB3944818B94AD8002FEBB4 /* CoreGraphics.framework */; };
+		5AB3944B18B94AD8002FEBB4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB3944A18B94AD8002FEBB4 /* UIKit.framework */; };
+		5AB3945118B94AD8002FEBB4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5AB3944F18B94AD8002FEBB4 /* InfoPlist.strings */; };
+		5AB3945318B94AD8002FEBB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB3945218B94AD8002FEBB4 /* main.m */; };
+		5AB3945718B94AD8002FEBB4 /* CardGameAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB3945618B94AD8002FEBB4 /* CardGameAppDelegate.m */; };
+		5AB3945A18B94AD8002FEBB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AB3945818B94AD8002FEBB4 /* Main.storyboard */; };
+		5AB3945D18B94AD8002FEBB4 /* CardGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB3945C18B94AD8002FEBB4 /* CardGameViewController.m */; };
+		5AB3945F18B94AD8002FEBB4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AB3945E18B94AD8002FEBB4 /* Images.xcassets */; };
+		5AB3946618B94AD8002FEBB4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB3946518B94AD8002FEBB4 /* XCTest.framework */; };
+		5AB3946718B94AD8002FEBB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB3944618B94AD8002FEBB4 /* Foundation.framework */; };
+		5AB3946818B94AD8002FEBB4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB3944A18B94AD8002FEBB4 /* UIKit.framework */; };
+		5AB3947018B94AD8002FEBB4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5AB3946E18B94AD8002FEBB4 /* InfoPlist.strings */; };
+		5AB3947218B94AD8002FEBB4 /* MatchismoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB3947118B94AD8002FEBB4 /* MatchismoTests.m */; };
+		5AB3947D18BBA895002FEBB4 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB3947C18BBA895002FEBB4 /* Card.m */; };
+		5AB3948118BC73BB002FEBB4 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB3948018BC73BB002FEBB4 /* PlayingCard.m */; };
+		5AB3948418BC7D27002FEBB4 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB3948318BC7D27002FEBB4 /* Deck.m */; };
+		5AB3948718BC8202002FEBB4 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB3948618BC8202002FEBB4 /* PlayingCardDeck.m */; };
+		5AB3948A18BD7D6B002FEBB4 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB3948918BD7D6B002FEBB4 /* CardMatchingGame.m */; };
+		5AFB0C8518C2C01100F68DD9 /* SetGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFB0C8418C2C01100F68DD9 /* SetGameViewController.m */; };
+		5AFB0C8818C2C03B00F68DD9 /* SetMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFB0C8718C2C03B00F68DD9 /* SetMatchingGame.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AB3946918B94AD8002FEBB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AB3943B18B94AD7002FEBB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AB3944218B94AD7002FEBB4;
+			remoteInfo = Matchismo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5AB3944318B94AD8002FEBB4 /* Matchismo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matchismo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AB3944618B94AD8002FEBB4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5AB3944818B94AD8002FEBB4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5AB3944A18B94AD8002FEBB4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5AB3944E18B94AD8002FEBB4 /* Matchismo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Matchismo-Info.plist"; sourceTree = "<group>"; };
+		5AB3945018B94AD8002FEBB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5AB3945218B94AD8002FEBB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5AB3945418B94AD8002FEBB4 /* Matchismo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Matchismo-Prefix.pch"; sourceTree = "<group>"; };
+		5AB3945518B94AD8002FEBB4 /* CardGameAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardGameAppDelegate.h; sourceTree = "<group>"; };
+		5AB3945618B94AD8002FEBB4 /* CardGameAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardGameAppDelegate.m; sourceTree = "<group>"; };
+		5AB3945918B94AD8002FEBB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5AB3945B18B94AD8002FEBB4 /* CardGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardGameViewController.h; sourceTree = "<group>"; };
+		5AB3945C18B94AD8002FEBB4 /* CardGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardGameViewController.m; sourceTree = "<group>"; };
+		5AB3945E18B94AD8002FEBB4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5AB3946418B94AD8002FEBB4 /* MatchismoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchismoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AB3946518B94AD8002FEBB4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5AB3946D18B94AD8002FEBB4 /* MatchismoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MatchismoTests-Info.plist"; sourceTree = "<group>"; };
+		5AB3946F18B94AD8002FEBB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5AB3947118B94AD8002FEBB4 /* MatchismoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchismoTests.m; sourceTree = "<group>"; };
+		5AB3947B18BBA895002FEBB4 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Model/Card.h; sourceTree = "<group>"; };
+		5AB3947C18BBA895002FEBB4 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Model/Card.m; sourceTree = "<group>"; };
+		5AB3947F18BC73BB002FEBB4 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCard.h; path = Model/PlayingCard.h; sourceTree = "<group>"; };
+		5AB3948018BC73BB002FEBB4 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCard.m; path = Model/PlayingCard.m; sourceTree = "<group>"; };
+		5AB3948218BC7D27002FEBB4 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deck.h; path = Model/Deck.h; sourceTree = "<group>"; };
+		5AB3948318BC7D27002FEBB4 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = Model/Deck.m; sourceTree = "<group>"; };
+		5AB3948518BC8202002FEBB4 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCardDeck.h; path = Model/PlayingCardDeck.h; sourceTree = "<group>"; };
+		5AB3948618BC8202002FEBB4 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCardDeck.m; path = Model/PlayingCardDeck.m; sourceTree = "<group>"; };
+		5AB3948818BD7D6B002FEBB4 /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardMatchingGame.h; path = Model/CardMatchingGame.h; sourceTree = "<group>"; };
+		5AB3948918BD7D6B002FEBB4 /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardMatchingGame.m; path = Model/CardMatchingGame.m; sourceTree = "<group>"; };
+		5AFB0C8318C2C01100F68DD9 /* SetGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetGameViewController.h; sourceTree = "<group>"; };
+		5AFB0C8418C2C01100F68DD9 /* SetGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetGameViewController.m; sourceTree = "<group>"; };
+		5AFB0C8618C2C03B00F68DD9 /* SetMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetMatchingGame.h; path = Model/SetMatchingGame.h; sourceTree = "<group>"; };
+		5AFB0C8718C2C03B00F68DD9 /* SetMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetMatchingGame.m; path = Model/SetMatchingGame.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AB3944018B94AD7002FEBB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB3944918B94AD8002FEBB4 /* CoreGraphics.framework in Frameworks */,
+				5AB3944B18B94AD8002FEBB4 /* UIKit.framework in Frameworks */,
+				5AB3944718B94AD8002FEBB4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AB3946118B94AD8002FEBB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB3946618B94AD8002FEBB4 /* XCTest.framework in Frameworks */,
+				5AB3946818B94AD8002FEBB4 /* UIKit.framework in Frameworks */,
+				5AB3946718B94AD8002FEBB4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AB3943A18B94AD7002FEBB4 = {
+			isa = PBXGroup;
+			children = (
+				5AB3944C18B94AD8002FEBB4 /* Matchismo */,
+				5AB3946B18B94AD8002FEBB4 /* MatchismoTests */,
+				5AB3944518B94AD8002FEBB4 /* Frameworks */,
+				5AB3944418B94AD8002FEBB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AB3944418B94AD8002FEBB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AB3944318B94AD8002FEBB4 /* Matchismo.app */,
+				5AB3946418B94AD8002FEBB4 /* MatchismoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AB3944518B94AD8002FEBB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AB3944618B94AD8002FEBB4 /* Foundation.framework */,
+				5AB3944818B94AD8002FEBB4 /* CoreGraphics.framework */,
+				5AB3944A18B94AD8002FEBB4 /* UIKit.framework */,
+				5AB3946518B94AD8002FEBB4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AB3944C18B94AD8002FEBB4 /* Matchismo */ = {
+			isa = PBXGroup;
+			children = (
+				5AB3945818B94AD8002FEBB4 /* Main.storyboard */,
+				5AB3947E18BBA8C5002FEBB4 /* Model */,
+				5AB3945B18B94AD8002FEBB4 /* CardGameViewController.h */,
+				5AB3945C18B94AD8002FEBB4 /* CardGameViewController.m */,
+				5AFB0C8318C2C01100F68DD9 /* SetGameViewController.h */,
+				5AFB0C8418C2C01100F68DD9 /* SetGameViewController.m */,
+				5AB3945E18B94AD8002FEBB4 /* Images.xcassets */,
+				5AB3944D18B94AD8002FEBB4 /* Supporting Files */,
+			);
+			path = Matchismo;
+			sourceTree = "<group>";
+		};
+		5AB3944D18B94AD8002FEBB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AB3945518B94AD8002FEBB4 /* CardGameAppDelegate.h */,
+				5AB3945618B94AD8002FEBB4 /* CardGameAppDelegate.m */,
+				5AB3944E18B94AD8002FEBB4 /* Matchismo-Info.plist */,
+				5AB3944F18B94AD8002FEBB4 /* InfoPlist.strings */,
+				5AB3945218B94AD8002FEBB4 /* main.m */,
+				5AB3945418B94AD8002FEBB4 /* Matchismo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5AB3946B18B94AD8002FEBB4 /* MatchismoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5AB3947118B94AD8002FEBB4 /* MatchismoTests.m */,
+				5AB3946C18B94AD8002FEBB4 /* Supporting Files */,
+			);
+			path = MatchismoTests;
+			sourceTree = "<group>";
+		};
+		5AB3946C18B94AD8002FEBB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AB3946D18B94AD8002FEBB4 /* MatchismoTests-Info.plist */,
+				5AB3946E18B94AD8002FEBB4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5AB3947E18BBA8C5002FEBB4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5AFB0C8618C2C03B00F68DD9 /* SetMatchingGame.h */,
+				5AFB0C8718C2C03B00F68DD9 /* SetMatchingGame.m */,
+				5AB3948818BD7D6B002FEBB4 /* CardMatchingGame.h */,
+				5AB3948918BD7D6B002FEBB4 /* CardMatchingGame.m */,
+				5AB3947B18BBA895002FEBB4 /* Card.h */,
+				5AB3947F18BC73BB002FEBB4 /* PlayingCard.h */,
+				5AB3948218BC7D27002FEBB4 /* Deck.h */,
+				5AB3948518BC8202002FEBB4 /* PlayingCardDeck.h */,
+				5AB3948618BC8202002FEBB4 /* PlayingCardDeck.m */,
+				5AB3948318BC7D27002FEBB4 /* Deck.m */,
+				5AB3948018BC73BB002FEBB4 /* PlayingCard.m */,
+				5AB3947C18BBA895002FEBB4 /* Card.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AB3944218B94AD7002FEBB4 /* Matchismo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AB3947518B94AD8002FEBB4 /* Build configuration list for PBXNativeTarget "Matchismo" */;
+			buildPhases = (
+				5AB3943F18B94AD7002FEBB4 /* Sources */,
+				5AB3944018B94AD7002FEBB4 /* Frameworks */,
+				5AB3944118B94AD7002FEBB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Matchismo;
+			productName = Matchismo;
+			productReference = 5AB3944318B94AD8002FEBB4 /* Matchismo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AB3946318B94AD8002FEBB4 /* MatchismoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AB3947818B94AD8002FEBB4 /* Build configuration list for PBXNativeTarget "MatchismoTests" */;
+			buildPhases = (
+				5AB3946018B94AD8002FEBB4 /* Sources */,
+				5AB3946118B94AD8002FEBB4 /* Frameworks */,
+				5AB3946218B94AD8002FEBB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AB3946A18B94AD8002FEBB4 /* PBXTargetDependency */,
+			);
+			name = MatchismoTests;
+			productName = MatchismoTests;
+			productReference = 5AB3946418B94AD8002FEBB4 /* MatchismoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AB3943B18B94AD7002FEBB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CardGame;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Michael Burk";
+				TargetAttributes = {
+					5AB3944218B94AD7002FEBB4 = {
+						DevelopmentTeam = CHB2UB4TU8;
+					};
+					5AB3946318B94AD8002FEBB4 = {
+						TestTargetID = 5AB3944218B94AD7002FEBB4;
+					};
+				};
+			};
+			buildConfigurationList = 5AB3943E18B94AD7002FEBB4 /* Build configuration list for PBXProject "Matchismo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AB3943A18B94AD7002FEBB4;
+			productRefGroup = 5AB3944418B94AD8002FEBB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AB3944218B94AD7002FEBB4 /* Matchismo */,
+				5AB3946318B94AD8002FEBB4 /* MatchismoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AB3944118B94AD7002FEBB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB3945F18B94AD8002FEBB4 /* Images.xcassets in Resources */,
+				5AB3945118B94AD8002FEBB4 /* InfoPlist.strings in Resources */,
+				5AB3945A18B94AD8002FEBB4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AB3946218B94AD8002FEBB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB3947018B94AD8002FEBB4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AB3943F18B94AD7002FEBB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB3945718B94AD8002FEBB4 /* CardGameAppDelegate.m in Sources */,
+				5AB3945D18B94AD8002FEBB4 /* CardGameViewController.m in Sources */,
+				5AB3945318B94AD8002FEBB4 /* main.m in Sources */,
+				5AB3948118BC73BB002FEBB4 /* PlayingCard.m in Sources */,
+				5AB3948A18BD7D6B002FEBB4 /* CardMatchingGame.m in Sources */,
+				5AFB0C8518C2C01100F68DD9 /* SetGameViewController.m in Sources */,
+				5AB3948718BC8202002FEBB4 /* PlayingCardDeck.m in Sources */,
+				5AB3948418BC7D27002FEBB4 /* Deck.m in Sources */,
+				5AB3947D18BBA895002FEBB4 /* Card.m in Sources */,
+				5AFB0C8818C2C03B00F68DD9 /* SetMatchingGame.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AB3946018B94AD8002FEBB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB3947218B94AD8002FEBB4 /* MatchismoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AB3946A18B94AD8002FEBB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AB3944218B94AD7002FEBB4 /* Matchismo */;
+			targetProxy = 5AB3946918B94AD8002FEBB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5AB3944F18B94AD8002FEBB4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AB3945018B94AD8002FEBB4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5AB3945818B94AD8002FEBB4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AB3945918B94AD8002FEBB4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5AB3946E18B94AD8002FEBB4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AB3946F18B94AD8002FEBB4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AB3947318B94AD8002FEBB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5AB3947418B94AD8002FEBB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AB3947618B94AD8002FEBB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Matchismo/Matchismo-Prefix.pch";
+				INFOPLIST_FILE = "Matchismo/Matchismo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5AB3947718B94AD8002FEBB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Matchismo/Matchismo-Prefix.pch";
+				INFOPLIST_FILE = "Matchismo/Matchismo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5AB3947918B94AD8002FEBB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Matchismo.app/Matchismo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Matchismo/Matchismo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MatchismoTests/MatchismoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5AB3947A18B94AD8002FEBB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Matchismo.app/Matchismo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Matchismo/Matchismo-Prefix.pch";
+				INFOPLIST_FILE = "MatchismoTests/MatchismoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AB3943E18B94AD7002FEBB4 /* Build configuration list for PBXProject "Matchismo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AB3947318B94AD8002FEBB4 /* Debug */,
+				5AB3947418B94AD8002FEBB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AB3947518B94AD8002FEBB4 /* Build configuration list for PBXNativeTarget "Matchismo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AB3947618B94AD8002FEBB4 /* Debug */,
+				5AB3947718B94AD8002FEBB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AB3947818B94AD8002FEBB4 /* Build configuration list for PBXNativeTarget "MatchismoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AB3947918B94AD8002FEBB4 /* Debug */,
+				5AB3947A18B94AD8002FEBB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AB3943B18B94AD7002FEBB4 /* Project object */;
+}
