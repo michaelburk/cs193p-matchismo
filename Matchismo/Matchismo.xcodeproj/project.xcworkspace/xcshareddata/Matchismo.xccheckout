@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E45A268F-662D-4A0F-B98A-023BB2483EB4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Matchismo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D3C19A13-A4F1-47CC-B703-5A49C92E6F09</key>
+		<string>https://github.com/michaelburk/cs193p-matchismo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Matchismo/Matchismo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D3C19A13-A4F1-47CC-B703-5A49C92E6F09</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/michaelburk/cs193p-matchismo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D3C19A13-A4F1-47CC-B703-5A49C92E6F09</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D3C19A13-A4F1-47CC-B703-5A49C92E6F09</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Lesson02-Matchismo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
